@@ -62,6 +62,6 @@ names_rev = name_array.map { |x| x.reverse.split(' ').map(&:capitalize).join(' '
 #Print
 puts "#{max_name} has the highest score and #{min_name} has the lowest score."
 puts "Average score is #{avg_sc}."
-puts "The most popular color is #{fav_color} and te least popular is #{least_color}."
+puts "The most popular color is #{fav_color} and the least popular is #{least_color}."
 puts "List of students' names:"
 puts names_rev
